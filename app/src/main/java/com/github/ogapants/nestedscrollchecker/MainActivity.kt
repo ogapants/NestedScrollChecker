@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         val radioGroup = findViewById<RadioGroup>(R.id.radioGroup)
         radioGroup.setOnCheckedChangeListener { _, checkedId ->
             replace(when (checkedId) {
+                R.id.m23 -> R.layout.fragment_main23
                 R.id.n25 -> R.layout.fragment_main25
                 R.id.o27 -> R.layout.fragment_main27
                 else -> throw Exception("oops")
