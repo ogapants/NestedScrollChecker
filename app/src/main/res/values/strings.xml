@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">NestedScrollChecker</string>
     <string name="xxxxx">
+        Top is here\n\n
         XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n
         oooooooooooooooooooooooooooooooooo\n
         XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n
@@ -749,5 +750,6 @@
         oooooooooooooooooooooooooooooooooo\n
         XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n
         oooooooooooooooooooooooooooooooooo\n
+        \n\nBottom is here
     </string>
 </resources>
