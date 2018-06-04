@@ -16,7 +16,9 @@
         android:id="@+id/switch_scrollbar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:checked="false"
+        android:layout_marginStart="6dp"
+        android:checked="true"
+        android:switchPadding="6dp"
         android:text="show scrollbar" />
 
     <RadioGroup
