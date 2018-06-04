@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.m23 -> R.layout.fragment_main23
                 R.id.n25 -> R.layout.fragment_main25
                 R.id.o27 -> R.layout.fragment_main27
+                R.id.origin -> R.layout.fragment_main
                 else -> throw Exception("oops")
             })
         }
