@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.webkit.WebView
 import android.widget.RadioGroup
 import android.widget.Switch
 
@@ -57,6 +58,8 @@ class ScrollFragment : Fragment() {
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        return inflater.inflate(arguments!!.getInt("res"), null)
+        val view = inflater.inflate(arguments!!.getInt("res"), null)
+        view.findViewById<WebView>(R.id.webView).loadUrl("file:///android_asset/local.html")
+        return view
     }
 }
